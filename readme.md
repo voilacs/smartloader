@@ -17,6 +17,11 @@ Designs peculiar to our loader:
     -The main function calls the function that is responsible for calling the _start method of the given elf.
     -The function then loops through all phnum segments and allocates memorry to each one of segment after each iteration it then tries to call the _start method again resulting in seg fault or successful operation thereafter.
     -We then try to keep track of all the statistics to print them in the end
+
+
+    Github Repo: https://github.com/voilacs/smartloader
+
+
 Contributions:
 Anmol(22083): The previous loader was allocating memory upfront. Seg fault handler was made to handle any seg faults that might come and jmp was incorporated to return control back to appropriate processes.
 
