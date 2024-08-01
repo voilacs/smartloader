@@ -2,7 +2,7 @@
 Contributor:
 1) Anmol Kumar 2022081
 2) Dhawal Garg 2022160
-This repository contains a basic Python code implementation that demonstrates the concept of a loader in an operating systems course. The code is designed to be a simple educational example, illustrating how a loader works in the context of an operating system.
+This repository contains a basic C code implementation that demonstrates the concept of a loader in an operating systems course. The code is designed to be a simple educational example, illustrating how a loader works in the context of an operating system.
 The loader is a crucial component of an operating system, responsible for loading programs or other executable code into memory for execution. This example code showcases the fundamental steps and processes involved in loading a program, including tasks such as:
 
 Reading the executable file from disk
